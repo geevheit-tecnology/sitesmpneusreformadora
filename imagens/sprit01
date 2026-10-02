@@ -1,0 +1,2100 @@
+# PROMPT MASTER SENIOR
+
+## SITE INSTITUCIONAL PREMIUM — REFORMADORA DE PNEUS
+
+Você é um **Arquiteto de Software, Desenvolvedor Full Stack Senior, UX/UI Designer, Product Designer, especialista em sites corporativos industriais e engenharia de software**.
+
+Sua missão é desenvolver um **site institucional premium, moderno, responsivo e escalável para uma grande empresa de reforma/recapagem de pneus**, com aparência de empresa consolidada do setor de transportes, logística e indústria.
+
+O projeto deve ser desenvolvido pensando não apenas no site atual, mas em uma futura plataforma digital integrada com:
+
+* WhatsApp
+* E-mail
+* Atendimento comercial
+* URA
+* CRM
+* Solicitação de orçamento
+* Agendamento de coleta/entrega
+* Área do cliente
+* Rastreamento de serviços
+* Histórico de pneus
+* Indicadores
+* Dashboard
+* Gestão de clientes
+* Gestão de leads
+* Notificações
+* APIs externas
+
+NÃO criar um simples site estático.
+
+Criar uma **base profissional de produto digital**, onde o site institucional seja a primeira camada.
+
+---
+
+# 1. OBJETIVO DO PROJETO
+
+Criar um site para uma empresa especializada em:
+
+* Reforma de pneus
+* Recapagem
+* Recauchutagem
+* Pneus para transporte
+* Pneus para caminhões
+* Pneus para frotas
+* Gestão do ciclo de vida dos pneus
+* Serviços para transportadoras
+* Atendimento empresarial
+* Controle de qualidade
+* Redução de custo operacional
+
+O site deve transmitir:
+
+**CONFIANÇA + TECNOLOGIA + EXPERIÊNCIA + QUALIDADE + SEGURANÇA + ESCALA + SUSTENTABILIDADE**
+
+A empresa deve parecer capaz de atender:
+
+* pequenas frotas
+* médias frotas
+* grandes transportadoras
+* empresas de logística
+* empresas de distribuição
+* operadores rodoviários
+* empresas com grande volume de pneus
+
+---
+
+# 2. DIREÇÃO VISUAL
+
+Criar uma identidade visual de alto padrão.
+
+Referências conceituais:
+
+* indústria automotiva
+* empresas de logística
+* fabricantes de pneus
+* empresas de engenharia
+* empresas B2B
+* tecnologia industrial
+
+Evitar aparência de:
+
+* borracharia comum
+* site genérico
+* template WordPress
+* landing page simples
+* excesso de vermelho/preto
+* excesso de efeitos
+* visual amador
+
+O resultado deve parecer um site desenvolvido para uma empresa nacional de grande porte.
+
+---
+
+# 3. DESIGN
+
+Criar:
+
+* Header premium
+* Menu profissional
+* Hero cinematográfico
+* Tipografia moderna
+* Cards sofisticados
+* Ícones minimalistas
+* Seções com bastante espaço
+* Microanimações
+* Scroll animations
+* Hover states
+* Transições suaves
+* Botões modernos
+* Elementos industriais
+* Fotos grandes
+* Números e indicadores
+* Blocos de autoridade
+* CTA estratégicos
+
+Criar experiência visual:
+
+**Industrial Premium + Tecnologia + Mobilidade**
+
+---
+
+# 4. PALETA
+
+Criar sistema de design usando variáveis.
+
+Base sugerida:
+
+* Preto/grafite
+* Cinza industrial
+* Branco
+* Cor primária forte
+* Cor secundária para destaque
+
+Não deixar o site excessivamente escuro.
+
+Criar:
+
+```text
+Primary
+Primary Dark
+Primary Light
+Secondary
+Background
+Surface
+Surface Dark
+Text
+Text Muted
+Border
+Success
+Warning
+Error
+Info
+```
+
+Tudo deve estar centralizado em tokens.
+
+---
+
+# 5. STACK
+
+Utilizar:
+
+## Backend
+
+PHP 8.3+
+
+Preferencialmente:
+
+**Laravel**
+
+Arquitetura organizada.
+
+## Frontend
+
+TypeScript
+
+Pode utilizar:
+
+* React
+* Vite
+* Tailwind CSS
+
+ou outra solução moderna equivalente.
+
+Priorizar:
+
+**Laravel + TypeScript + Vite + Tailwind**
+
+## Banco
+
+PostgreSQL.
+
+## Infraestrutura
+
+Preparar para:
+
+* Docker
+* ambiente local
+* staging
+* produção
+
+Não acoplar o sistema a um único provedor.
+
+---
+
+# 6. ARQUITETURA
+
+Organizar o projeto profissionalmente.
+
+Exemplo:
+
+```text
+/app
+/bootstrap
+/config
+/database
+/public
+/resources
+/routes
+/storage
+/tests
+
+/frontend
+/components
+/pages
+/layouts
+/services
+/types
+/hooks
+/utils
+```
+
+Separar:
+
+* domínio
+* apresentação
+* infraestrutura
+* integrações
+* persistência
+* APIs
+
+Aplicar:
+
+* SOLID
+* DRY
+* Clean Code
+* Separation of Concerns
+* DTOs
+* Services
+* Repositories quando necessário
+* Form Requests
+* Policies
+* Events
+* Jobs
+* Notifications
+
+Não criar complexidade desnecessária.
+
+---
+
+# 7. ESTRUTURA DO SITE
+
+Criar as seguintes páginas:
+
+## HOME
+
+Hero principal:
+
+Mensagem forte relacionada a reforma de pneus.
+
+Exemplo conceitual:
+
+> Mais vida útil para seus pneus. Mais eficiência para sua operação.
+
+Subtexto:
+
+> Tecnologia, qualidade e controle para transformar o ciclo de vida dos pneus da sua frota.
+
+CTAs:
+
+**Solicitar orçamento**
+
+**Falar com especialista**
+
+CTA secundário:
+
+**Conheça nossos serviços**
+
+---
+
+# 8. HEADER
+
+Criar:
+
+Logo
+
+Menu:
+
+* Empresa
+* Reforma de Pneus
+* Serviços
+* Tecnologia
+* Qualidade
+* Sustentabilidade
+* Frotas
+* Conteúdos
+* Contato
+
+Botão:
+
+**Solicitar orçamento**
+
+No mobile:
+
+menu hamburger sofisticado.
+
+Header sticky.
+
+Alterar aparência durante scroll.
+
+---
+
+# 9. HERO
+
+Criar hero de impacto.
+
+Utilizar imagem/vídeo conceitual de:
+
+* caminhão
+* pneu
+* linha industrial
+* processo de reforma
+* transporte rodoviário
+
+Adicionar overlay profissional.
+
+Criar:
+
+Título
+
+Subtítulo
+
+CTA principal
+
+CTA secundário
+
+Indicadores:
+
+```text
++XX anos de experiência
++XX pneus reformados
++XX clientes
+XX% de controle de qualidade
+```
+
+Os números devem ser facilmente alteráveis posteriormente.
+
+---
+
+# 10. SEÇÃO EMPRESA
+
+Título:
+
+## Experiência que movimenta negócios
+
+Apresentar:
+
+* história
+* experiência
+* estrutura
+* equipe
+* tecnologia
+* capacidade produtiva
+* atendimento
+
+Criar layout:
+
+Texto + imagem industrial.
+
+Adicionar CTA:
+
+**Conheça nossa empresa**
+
+---
+
+# 11. SERVIÇO PRINCIPAL
+
+Criar uma seção extremamente profissional:
+
+## Reforma de Pneus
+
+Explicar visualmente o processo.
+
+Mostrar etapas:
+
+```text
+01
+Recebimento
+
+02
+Inspeção
+
+03
+Preparação
+
+04
+Aplicação
+
+05
+Vulcanização
+
+06
+Inspeção final
+
+07
+Liberação
+```
+
+Cada etapa deve possuir:
+
+* ícone
+* título
+* descrição
+* microanimação
+
+---
+
+# 12. PROCESSO DE REFORMA
+
+Criar uma seção visual em formato timeline.
+
+Fluxo:
+
+```text
+PNEU RECEBIDO
+      ↓
+INSPEÇÃO
+      ↓
+AVALIAÇÃO DA CARCAÇA
+      ↓
+PREPARAÇÃO
+      ↓
+APLICAÇÃO DA BANDA
+      ↓
+VULCANIZAÇÃO
+      ↓
+INSPEÇÃO
+      ↓
+CONTROLE DE QUALIDADE
+      ↓
+LIBERAÇÃO
+```
+
+Criar animação durante scroll.
+
+---
+
+# 13. QUALIDADE
+
+Criar uma área premium.
+
+Título:
+
+## Qualidade em cada etapa
+
+Mostrar:
+
+* inspeção
+* rastreabilidade
+* controle
+* padrões técnicos
+* equipe especializada
+* processos documentados
+* inspeção final
+
+Criar cards.
+
+---
+
+# 14. TECNOLOGIA
+
+Criar seção:
+
+## Tecnologia aplicada ao controle dos pneus
+
+Preparar espaço para futura integração com:
+
+* rastreamento
+* QR Code
+* RFID
+* histórico do pneu
+* quilometragem
+* vida útil
+* número de reformas
+* inspeções
+* laudos
+* fotos
+* status
+
+Não implementar tudo agora.
+
+Criar arquitetura preparada.
+
+---
+
+# 15. GESTÃO DE FROTAS
+
+Criar seção B2B:
+
+## Soluções para sua frota
+
+Mostrar benefícios:
+
+* redução de custos
+* controle dos pneus
+* aumento da vida útil
+* rastreabilidade
+* acompanhamento
+* previsibilidade
+* controle operacional
+
+CTA:
+
+**Quero uma solução para minha frota**
+
+---
+
+# 16. BENEFÍCIOS
+
+Criar cards:
+
+### Redução de custos
+
+Melhor aproveitamento das carcaças.
+
+### Maior vida útil
+
+Ampliação do ciclo de utilização.
+
+### Controle
+
+Acompanhamento do processo.
+
+### Segurança
+
+Inspeções e controle de qualidade.
+
+### Sustentabilidade
+
+Redução do descarte prematuro.
+
+### Gestão
+
+Informações para tomada de decisão.
+
+---
+
+# 17. SUSTENTABILIDADE
+
+Criar uma seção forte:
+
+## Mais quilômetros. Menos desperdício.
+
+Explicar:
+
+* reaproveitamento de carcaças
+* redução de descarte
+* economia de recursos
+* economia operacional
+* sustentabilidade da operação
+
+Não inventar números ambientais.
+
+Deixar indicadores configuráveis.
+
+---
+
+# 18. SEGMENTOS
+
+Criar seção:
+
+## Para quem transporta todos os dias
+
+Cards:
+
+* Transportadoras
+* Logística
+* Distribuição
+* Agronegócio
+* Construção
+* Indústria
+* Frotistas
+* Operações especiais
+
+Cada card com imagem/ícone.
+
+---
+
+# 19. NÚMEROS
+
+Criar seção de autoridade:
+
+```text
++XX
+anos de mercado
+
++XX
+pneus reformados
+
++XX
+clientes
+
++XX
+profissionais
+
+XX
+unidades
+```
+
+Criar componente reutilizável.
+
+---
+
+# 20. DEPOIMENTOS
+
+Criar:
+
+## Quem confia na nossa operação
+
+Cards de depoimentos.
+
+Preparar estrutura para posteriormente puxar depoimentos do banco.
+
+Campos:
+
+```text
+nome
+empresa
+cargo
+depoimento
+foto
+status
+ordem
+```
+
+---
+
+# 21. CLIENTES
+
+Criar seção:
+
+## Empresas que movimentam o Brasil
+
+Logos em grayscale.
+
+Preparar banco para clientes/parceiros.
+
+Não inventar empresas reais.
+
+Utilizar placeholders claramente identificados.
+
+---
+
+# 22. BLOG / CONTEÚDOS
+
+Criar:
+
+## Conteúdos para sua operação
+
+Categorias:
+
+* Pneus
+* Frotas
+* Manutenção
+* Logística
+* Segurança
+* Gestão
+* Sustentabilidade
+
+Criar estrutura preparada para CMS.
+
+Campos:
+
+```text
+title
+slug
+excerpt
+content
+cover
+category
+author
+published_at
+status
+seo_title
+seo_description
+```
+
+---
+
+# 23. FAQ
+
+Criar FAQ profissional.
+
+Perguntas:
+
+* Como funciona a reforma de pneus?
+* Quais pneus podem ser reformados?
+* Como funciona a inspeção?
+* Quanto tempo leva o processo?
+* Atendem transportadoras?
+* Existe coleta?
+* Como solicitar orçamento?
+* Como acompanhar o serviço?
+
+Preparar FAQ para SEO.
+
+---
+
+# 24. ORÇAMENTO
+
+Criar página:
+
+## Solicite seu orçamento
+
+Formulário:
+
+```text
+Nome
+Empresa
+CNPJ
+Telefone
+WhatsApp
+E-mail
+Cidade
+Estado
+Quantidade de pneus
+Tipo de pneu
+Medida
+Tipo de serviço
+Mensagem
+Anexos
+```
+
+Criar consentimento LGPD.
+
+Após envio:
+
+Salvar no banco.
+
+Gerar Lead.
+
+Enviar evento interno.
+
+Preparar integração futura com:
+
+WhatsApp
+
+E-mail
+
+CRM
+
+ERP
+
+---
+
+# 25. CONTATO
+
+Criar:
+
+* telefone
+* WhatsApp
+* e-mail
+* endereço
+* horário
+* mapa
+* formulário
+
+Criar CTAs:
+
+**Falar pelo WhatsApp**
+
+**Enviar e-mail**
+
+**Solicitar orçamento**
+
+---
+
+# 26. WHATSAPP — PREPARAÇÃO
+
+Não implementar integração definitiva ainda.
+
+Criar uma camada:
+
+```text
+WhatsAppService
+```
+
+Interface:
+
+```text
+sendMessage()
+sendTemplate()
+notifyLead()
+notifyQuote()
+```
+
+Inicialmente utilizar mock/local implementation.
+
+Posteriormente será possível conectar:
+
+* WhatsApp Business API
+* Meta
+* Twilio
+* outro provedor
+
+Não espalhar código de WhatsApp pelo sistema.
+
+---
+
+# 27. E-MAIL
+
+Criar:
+
+```text
+MailService
+```
+
+Preparar:
+
+* confirmação de formulário
+* aviso de orçamento
+* contato comercial
+* recuperação
+* notificações
+
+Utilizar filas quando necessário.
+
+Preparar para:
+
+SMTP
+Resend
+Amazon SES
+SendGrid
+etc.
+
+---
+
+# 28. URA / ATENDIMENTO
+
+Preparar arquitetura futura.
+
+Criar conceito:
+
+```text
+CommunicationService
+```
+
+Com adaptadores:
+
+```text
+WhatsAppAdapter
+EmailAdapter
+VoiceAdapter
+SMSAdapter
+```
+
+Futuramente:
+
+```text
+VoiceAdapter
+    ↓
+URA
+    ↓
+Fila de atendimento
+    ↓
+CRM
+```
+
+Não implementar telefonia agora.
+
+A arquitetura apenas deve permitir a integração posteriormente.
+
+---
+
+# 29. CRM FUTURO
+
+Criar entidade inicial:
+
+```text
+Lead
+```
+
+Campos:
+
+```text
+id
+name
+company
+document
+phone
+whatsapp
+email
+city
+state
+source
+status
+notes
+created_at
+updated_at
+```
+
+Status:
+
+```text
+NEW
+CONTACTED
+QUALIFIED
+PROPOSAL
+NEGOTIATION
+CONVERTED
+LOST
+```
+
+Preparar para futuro CRM.
+
+---
+
+# 30. AUDITORIA
+
+Criar estrutura:
+
+```text
+audit_logs
+```
+
+Registrar:
+
+* usuário
+* ação
+* entidade
+* entidade_id
+* dados anteriores
+* dados novos
+* IP
+* user_agent
+* timestamp
+
+Preparar para futura área administrativa.
+
+---
+
+# 31. ADMIN
+
+Criar estrutura inicial:
+
+```text
+/admin
+```
+
+Dashboard administrativo futuro.
+
+Criar:
+
+* Login
+* Usuários
+* Leads
+* Orçamentos
+* Conteúdos
+* Depoimentos
+* Clientes
+* FAQ
+* Configurações
+
+RBAC:
+
+```text
+SUPER_ADMIN
+ADMIN
+COMERCIAL
+MARKETING
+ATENDIMENTO
+EDITOR
+```
+
+---
+
+# 32. SEO
+
+Implementar desde o início.
+
+Criar:
+
+* title
+* meta description
+* Open Graph
+* canonical
+* sitemap.xml
+* robots.txt
+* schema.org
+* breadcrumbs
+* headings semânticos
+* URLs amigáveis
+
+Estrutura preparada para SEO local.
+
+---
+
+# 33. PERFORMANCE
+
+O site deve ser extremamente rápido.
+
+Aplicar:
+
+* lazy loading
+* imagens WebP/AVIF
+* compressão
+* cache
+* code splitting
+* minificação
+* preload somente quando necessário
+* fontes otimizadas
+* imagens responsivas
+
+Meta:
+
+Core Web Vitals excelentes.
+
+---
+
+# 34. RESPONSIVIDADE
+
+Obrigatoriamente funcionar perfeitamente em:
+
+* Desktop
+* Notebook
+* Tablet
+* Smartphone
+
+Testar pelo menos:
+
+```text
+360px
+390px
+430px
+768px
+1024px
+1280px
+1440px
+1920px
+```
+
+---
+
+# 35. ACESSIBILIDADE
+
+Implementar:
+
+* contraste adequado
+* navegação por teclado
+* aria-label
+* foco visível
+* textos alternativos
+* semântica HTML
+* tamanho adequado de fonte
+* respeito a prefers-reduced-motion
+
+---
+
+# 36. LGPD
+
+Criar estrutura para:
+
+* consentimento
+* política de privacidade
+* política de cookies
+* armazenamento mínimo
+* finalidade dos dados
+* exclusão futura
+* registro de consentimento
+
+Não coletar dados desnecessários.
+
+---
+
+# 37. ANALYTICS
+
+Preparar camada:
+
+```text
+AnalyticsService
+```
+
+Eventos:
+
+```text
+page_view
+quote_started
+quote_submitted
+whatsapp_clicked
+phone_clicked
+email_clicked
+contact_submitted
+```
+
+Inicialmente mock.
+
+Posteriormente conectar:
+
+* Google Analytics
+* Google Tag Manager
+* Meta Pixel
+* outras ferramentas.
+
+---
+
+# 38. API
+
+Criar API versionada:
+
+```text
+/api/v1
+```
+
+Endpoints iniciais:
+
+```text
+GET  /api/v1/settings
+POST /api/v1/leads
+POST /api/v1/quotes
+GET  /api/v1/services
+GET  /api/v1/blog
+GET  /api/v1/faq
+POST /api/v1/contact
+```
+
+Preparar autenticação para área administrativa.
+
+---
+
+# 39. BANCO
+
+Criar migrations PostgreSQL.
+
+Tabelas iniciais:
+
+```text
+users
+roles
+permissions
+leads
+quotes
+quote_items
+services
+service_categories
+blog_posts
+blog_categories
+faqs
+testimonials
+clients
+contact_messages
+audit_logs
+media
+settings
+consents
+```
+
+Utilizar UUID quando fizer sentido.
+
+Criar:
+
+* índices
+* foreign keys
+* timestamps
+* soft delete quando necessário.
+
+---
+
+# 40. SEGURANÇA
+
+Implementar:
+
+* CSRF
+* validação
+* sanitização
+* rate limiting
+* proteção contra SQL injection
+* XSS
+* autenticação segura
+* autorização
+* upload seguro
+* limite de tamanho de arquivos
+* validação MIME
+* logs
+* secrets via environment
+
+Nunca colocar:
+
+```text
+API keys
+passwords
+tokens
+credentials
+```
+
+no código.
+
+---
+
+# 41. COMPONENTIZAÇÃO
+
+Criar componentes reutilizáveis:
+
+```text
+Header
+Footer
+Hero
+Button
+Card
+ServiceCard
+StatCard
+TestimonialCard
+BlogCard
+FAQ
+CTA
+ContactForm
+QuoteForm
+Modal
+Toast
+Input
+Select
+Textarea
+FileUpload
+WhatsAppButton
+```
+
+---
+
+# 42. WHATSAPP FLUTUANTE
+
+Criar botão flutuante.
+
+Por enquanto:
+
+```text
+WHATSAPP_NUMBER
+```
+
+deve vir de configuração.
+
+Não colocar número fixo no componente.
+
+Posteriormente conectar API.
+
+---
+
+# 43. CONFIGURAÇÕES
+
+Criar tabela/configuração:
+
+```text
+company_name
+logo
+phone
+whatsapp
+email
+address
+city
+state
+instagram
+linkedin
+facebook
+youtube
+whatsapp_enabled
+email_enabled
+```
+
+Assim a empresa poderá alterar informações sem mexer no código.
+
+---
+
+# 44. MULTIEMPRESA FUTURA
+
+Não implementar SaaS agora.
+
+Porém estruturar para futuramente permitir:
+
+```text
+companies
+company_settings
+users
+company_users
+```
+
+Não criar complexidade prematura.
+
+---
+
+# 45. CONTEÚDO EDITÁVEL
+
+Sempre que fizer sentido, não deixar textos críticos hardcoded.
+
+Centralizar configurações.
+
+Exemplo:
+
+```text
+Hero title
+Hero subtitle
+CTA
+Telefone
+WhatsApp
+Endereço
+E-mail
+```
+
+---
+
+# 46. IMAGENS
+
+Utilizar imagens profissionais provisórias.
+
+IMPORTANTE:
+
+Todos os assets devem estar organizados:
+
+```text
+/public/assets/images
+/public/assets/icons
+/public/assets/logos
+/public/assets/videos
+```
+
+Utilizar nomes semânticos.
+
+Exemplo:
+
+```text
+hero-truck.webp
+tire-retreading.webp
+quality-control.webp
+industrial-facility.webp
+fleet-management.webp
+```
+
+Deixar fácil substituir posteriormente pelas fotos reais da empresa.
+
+---
+
+# 47. ANIMAÇÕES
+
+Utilizar animações sofisticadas.
+
+Exemplos:
+
+* fade
+* slide
+* scale
+* reveal
+* counter
+* parallax moderado
+* hover
+
+Evitar animações exageradas.
+
+O site deve parecer premium e industrial.
+
+---
+
+# 48. CTA ESTRATÉGICOS
+
+Espalhar CTAs ao longo da página.
+
+Exemplos:
+
+**Solicitar orçamento**
+
+**Falar com especialista**
+
+**Conhecer o processo**
+
+**Quero atender minha frota**
+
+**Entrar em contato**
+
+Não utilizar CTA em excesso na mesma seção.
+
+---
+
+# 49. PÁGINAS
+
+Criar pelo menos:
+
+```text
+/
+ /empresa
+ /reforma-de-pneus
+ /servicos
+ /tecnologia
+ /qualidade
+ /sustentabilidade
+ /frotas
+ /blog
+ /blog/{slug}
+ /faq
+ /orcamento
+ /contato
+ /politica-de-privacidade
+ /politica-de-cookies
+```
+
+---
+
+# 50. PÁGINA 404
+
+Criar página 404 premium.
+
+Mensagem:
+
+> Parece que este caminho saiu da rota.
+
+CTA:
+
+**Voltar para o início**
+
+---
+
+# 51. FORMULÁRIOS
+
+Todos os formulários devem possuir:
+
+* validação frontend
+* validação backend
+* mensagens amigáveis
+* loading
+* sucesso
+* erro
+* proteção anti-spam
+* rate limiting
+
+---
+
+# 52. ARQUITETURA DE INTEGRAÇÕES
+
+Criar:
+
+```text
+app/Services/Integrations
+```
+
+Estrutura:
+
+```text
+WhatsApp
+Email
+CRM
+Analytics
+Voice
+Storage
+```
+
+Utilizar interfaces.
+
+Exemplo:
+
+```php
+interface NotificationChannelInterface
+{
+    public function send(
+        string $recipient,
+        string $message
+    ): void;
+}
+```
+
+Isso permitirá trocar o provedor sem reescrever o sistema.
+
+---
+
+# 53. FILAS
+
+Preparar infraestrutura para:
+
+```text
+jobs
+failed_jobs
+```
+
+Usar filas futuramente para:
+
+* e-mail
+* WhatsApp
+* processamento de imagens
+* notificações
+* geração de documentos
+* integrações externas
+
+---
+
+# 54. LOGGING
+
+Implementar logging estruturado.
+
+Registrar:
+
+* erros
+* integrações
+* eventos importantes
+* falhas de comunicação
+
+Nunca registrar:
+
+* senha
+* token
+* dados sensíveis desnecessários
+
+---
+
+# 55. TESTES
+
+Criar testes para:
+
+Backend:
+
+* Unit
+* Feature
+* API
+* Validation
+* Authorization
+
+Frontend:
+
+* componentes críticos
+* formulários
+* fluxos principais
+
+Testar principalmente:
+
+```text
+lead creation
+quote creation
+contact form
+authentication
+authorization
+```
+
+---
+
+# 56. DOCUMENTAÇÃO
+
+Criar:
+
+```text
+README.md
+ARCHITECTURE.md
+DATABASE.md
+API.md
+INTEGRATIONS.md
+DEPLOY.md
+ENVIRONMENT.md
+SECURITY.md
+```
+
+Documentar:
+
+* instalação
+* banco
+* variáveis
+* comandos
+* arquitetura
+* APIs
+* integração futura
+
+---
+
+# 57. ENVIRONMENT
+
+Criar:
+
+```text
+.env.example
+```
+
+Exemplo:
+
+```env
+APP_NAME=
+APP_ENV=
+APP_URL=
+
+DB_CONNECTION=pgsql
+DB_HOST=
+DB_PORT=
+DB_DATABASE=
+DB_USERNAME=
+DB_PASSWORD=
+
+WHATSAPP_ENABLED=false
+WHATSAPP_PROVIDER=
+WHATSAPP_API_URL=
+WHATSAPP_TOKEN=
+
+MAIL_ENABLED=false
+MAIL_PROVIDER=
+
+ANALYTICS_ENABLED=false
+ANALYTICS_PROVIDER=
+```
+
+Nunca criar `.env` com credenciais reais.
+
+---
+
+# 58. DESIGN SYSTEM
+
+Criar documentação dos componentes.
+
+Definir:
+
+* spacing
+* typography
+* colors
+* radius
+* shadows
+* buttons
+* inputs
+* cards
+* breakpoints
+* animations
+
+Tudo deve ser consistente.
+
+---
+
+# 59. SEO LOCAL
+
+Preparar campos:
+
+```text
+company_name
+address
+city
+state
+postal_code
+latitude
+longitude
+phone
+opening_hours
+```
+
+Preparar Schema:
+
+```text
+Organization
+LocalBusiness
+Service
+Article
+FAQPage
+BreadcrumbList
+```
+
+---
+
+# 60. HOME — ORDEM FINAL
+
+A Home deve seguir aproximadamente:
+
+```text
+HEADER
+
+HERO
+
+INDICADORES
+
+EMPRESA
+
+REFORMA DE PNEUS
+
+PROCESSO
+
+QUALIDADE
+
+TECNOLOGIA
+
+SOLUÇÕES PARA FROTAS
+
+BENEFÍCIOS
+
+SUSTENTABILIDADE
+
+SEGMENTOS
+
+NÚMEROS
+
+CLIENTES
+
+DEPOIMENTOS
+
+BLOG
+
+FAQ
+
+CTA FINAL
+
+CONTATO
+
+FOOTER
+```
+
+---
+
+# 61. FOOTER
+
+Criar footer grande e profissional.
+
+Colunas:
+
+### Empresa
+
+* Sobre
+* Qualidade
+* Tecnologia
+* Sustentabilidade
+
+### Soluções
+
+* Reforma de pneus
+* Frotas
+* Serviços
+
+### Conteúdo
+
+* Blog
+* FAQ
+
+### Atendimento
+
+* WhatsApp
+* Telefone
+* E-mail
+
+### Institucional
+
+* Política de privacidade
+* Cookies
+* Termos
+
+Adicionar redes sociais.
+
+---
+
+# 62. MOBILE
+
+No mobile:
+
+* Header compacto
+* Menu fullscreen
+* CTA WhatsApp
+* formulários simples
+* cards empilhados
+* imagens otimizadas
+* animações reduzidas quando necessário
+
+---
+
+# 63. NÃO INVENTAR DADOS DA EMPRESA
+
+IMPORTANTE.
+
+Não inventar:
+
+* CNPJ
+* endereço
+* telefone
+* clientes
+* certificações
+* quantidade de pneus
+* anos de mercado
+* números de produção
+* certificações ISO
+* parceiros
+* marcas
+* depoimentos reais
+
+Utilizar placeholders:
+
+```text
+[EMPRESA]
+[TELEFONE]
+[WHATSAPP]
+[E-MAIL]
+[ENDEREÇO]
+[ANO DE FUNDAÇÃO]
+```
+
+Deixar tudo fácil de substituir.
+
+---
+
+# 64. EXPERIÊNCIA DO USUÁRIO
+
+O visitante deve entender em poucos segundos:
+
+1. Quem é a empresa
+2. O que ela faz
+3. Para quem trabalha
+4. Por que contratar
+5. Como funciona
+6. Como solicitar orçamento
+
+Não transformar o site em um catálogo confuso.
+
+---
+
+# 65. CONVERSÃO
+
+Criar funil:
+
+```text
+VISITANTE
+   ↓
+CONHECE A EMPRESA
+   ↓
+CONHECE O SERVIÇO
+   ↓
+ENTENDE O BENEFÍCIO
+   ↓
+CONFIA
+   ↓
+SOLICITA ORÇAMENTO
+   ↓
+LEAD
+   ↓
+ATENDIMENTO
+```
+
+Preparar o código para posteriormente integrar o atendimento.
+
+---
+
+# 66. FUTURA CENTRAL DE ATENDIMENTO
+
+Arquitetura futura:
+
+```text
+SITE
+ │
+ ├── WhatsApp
+ │
+ ├── E-mail
+ │
+ ├── Formulário
+ │
+ ├── Telefone
+ │
+ └── URA
+       │
+       ▼
+   CENTRAL
+       │
+       ▼
+      CRM
+       │
+       ├── Lead
+       ├── Cliente
+       ├── Orçamento
+       ├── Atendimento
+       └── Histórico
+```
+
+Não implementar toda essa estrutura agora.
+
+Criar interfaces e pontos de extensão.
+
+---
+
+# 67. FUTURA ÁREA DO CLIENTE
+
+Preparar arquitetura para posteriormente criar:
+
+```text
+/client
+```
+
+Com:
+
+* login
+* empresa
+* veículos
+* pneus
+* serviços
+* orçamento
+* pedidos
+* documentos
+* histórico
+* atendimento
+
+Não implementar agora.
+
+---
+
+# 68. FUTURA RASTREABILIDADE DOS PNEUS
+
+Arquitetura futura:
+
+```text
+PNEU
+ ↓
+CARCAÇA
+ ↓
+INSPEÇÃO
+ ↓
+REFORMA
+ ↓
+LOTE
+ ↓
+CLIENTE
+ ↓
+VEÍCULO
+ ↓
+QUILOMETRAGEM
+ ↓
+INSPEÇÕES
+ ↓
+NOVA REFORMA
+```
+
+Preparar banco e serviços para futura expansão.
+
+---
+
+# 69. IMPLEMENTAÇÃO
+
+Não tentar construir tudo de uma vez.
+
+Executar em sprints.
+
+## SPRINT 01
+
+Setup:
+
+* Laravel
+* PostgreSQL
+* TypeScript
+* Vite
+* Tailwind
+* Docker
+* estrutura inicial
+* Git
+* documentação
+
+## SPRINT 02
+
+Design System.
+
+## SPRINT 03
+
+Header + Home.
+
+## SPRINT 04
+
+Páginas institucionais.
+
+## SPRINT 05
+
+Serviços + processo + qualidade.
+
+## SPRINT 06
+
+Frotas + sustentabilidade + tecnologia.
+
+## SPRINT 07
+
+Blog + FAQ.
+
+## SPRINT 08
+
+Contato + orçamento.
+
+## SPRINT 09
+
+Backend + Leads.
+
+## SPRINT 10
+
+Admin básico.
+
+## SPRINT 11
+
+Auditoria + segurança.
+
+## SPRINT 12
+
+SEO + performance.
+
+## SPRINT 13
+
+Testes.
+
+## SPRINT 14
+
+Preparação para integrações.
+
+---
+
+# 70. REGRA PRINCIPAL DE DESENVOLVIMENTO
+
+NÃO criar um monólito desorganizado.
+
+NÃO colocar tudo em uma única página.
+
+NÃO colocar lógica de negócio dentro dos componentes visuais.
+
+NÃO criar integração diretamente dentro do controller.
+
+NÃO hardcodar dados comerciais.
+
+NÃO colocar credenciais no código.
+
+NÃO criar dependências desnecessárias.
+
+NÃO quebrar funcionalidades existentes durante novas implementações.
+
+---
+
+# 71. RESULTADO ESPERADO
+
+Ao final do projeto deve existir um:
+
+**SITE CORPORATIVO PREMIUM PARA REFORMADORA DE PNEUS**
+
+com:
+
+* aparência de grande empresa
+* excelente UX
+* excelente UI
+* responsivo
+* SEO
+* performance
+* acessibilidade
+* LGPD
+* backend PHP
+* frontend TypeScript
+* PostgreSQL
+* API
+* formulários
+* leads
+* orçamento
+* administração
+* auditoria
+* arquitetura de integrações
+* preparação para WhatsApp
+* preparação para e-mail
+* preparação para URA
+* preparação para CRM
+* preparação para área do cliente
+* preparação para rastreabilidade
+
+---
+
+# 72. REGRA FINAL PARA O AGENT
+
+Antes de escrever código:
+
+1. Analise todo o projeto.
+2. Verifique se já existem arquivos.
+3. Não apague código existente sem necessidade.
+4. Crie um plano técnico.
+5. Apresente a arquitetura.
+6. Depois implemente por sprint.
+7. Após cada sprint execute testes.
+8. Corrija erros antes de continuar.
+9. Mantenha documentação atualizada.
+10. Nunca considere uma feature concluída apenas porque o código compila.
+
+A cada sprint:
+
+```text
+IMPLEMENTAR
+↓
+TESTAR
+↓
+VALIDAR
+↓
+CORRIGIR
+↓
+DOCUMENTAR
+↓
+COMMIT
+↓
+PRÓXIMO SPRINT
+```
+
+O objetivo é produzir um **site comercial realmente utilizável e com arquitetura profissional**, não apenas uma demonstração visual.
+
+Comece pelo **SPRINT 01**, mas antes faça uma análise completa do ambiente e gere o documento:
+
+```text
+PROJECT_ANALYSIS.md
+```
+
+Depois siga para a implementação.

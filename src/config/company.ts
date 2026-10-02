@@ -1,0 +1,15 @@
+export const companySettings = {
+  companyName: import.meta.env.VITE_COMPANY_NAME ?? 'SM Pneus',
+  phone: '(00) 0000-0000',
+  whatsapp: import.meta.env.VITE_WHATSAPP_NUMBER ?? '5500000000000',
+  email: import.meta.env.VITE_CONTACT_EMAIL ?? 'comercial@smpneus.com.br',
+  address: 'Rodovia principal, distrito industrial',
+  city: 'Cidade',
+  state: 'UF',
+  instagram: '#',
+  linkedin: '#',
+  facebook: '#',
+  youtube: '#',
+  whatsappEnabled: true,
+  emailEnabled: true,
+};
